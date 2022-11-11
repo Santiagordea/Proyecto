@@ -1,0 +1,202 @@
+.imagenLogo img{
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+body{
+    color: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{ 
+    text-align: center;
+    color: black;
+}
+
+p{
+    color: blue;
+}
+
+a{
+    text-decoration: none; /* llamamos a todos los enlaces para que no tengan subrayado */
+}
+
+.listas{
+    list-style-type: none;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; /* alineamos el texto al centro */
+    line-height: 1.6; /* interlineado entre los textos */
+}
+
+.menuPrincipal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, blue, white);
+    font-size: 25px;
+}
+
+.menuPrincipal li { 
+    display: inline-block;
+    padding: 5px;
+    margin: 30px 30px 30px 30px;
+}
+
+.menuPrincipal li a:hover{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.principal__titulo{
+    text-align: center;
+}
+
+.principal__subtitulo{
+    text-align: center;
+}
+
+.redes img{
+    width: 30px;
+    display: block;
+    margin: 5px;
+    float: left;
+}
+
+.redes {
+    right: 0px;
+    bottom: 50%;
+    align-items: flex-start;
+}
+
+.whatsapp img {
+    width: 30px;
+    height: auto;
+    margin: 5px 5px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin: 5px;
+}
+
+.cajaOverflow{
+   background-color: aqua;
+   width: 800px;
+   right: 25px;
+   overflow: auto;
+   margin: auto;
+}
+
+.cajaOverflow p{
+    color: black;
+    font-size: 20px;
+}
+
+.galeria {
+    background-color: #8ecae6;
+    padding: 20px;
+    height: auto;
+    width: 97%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.galeria img{
+    display: inline-block;
+    width: 600px;
+    right: 500px;
+    margin: 20px 20px 20px 20px;
+}
+
+.galeriatrofeos{
+    background-color: #8ecae6;
+    padding: 20px;
+    height: auto;
+    width: 97%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 10px;
+}
+
+.galeriatrofeos img{
+    display: inline-block;
+    width: 600px;
+    right: auto;
+    padding: auto;
+    margin: 20px 20px;
+}
+
+.galeriaestadisticas{
+    background-color: #8ecae6;
+    padding: 20px;
+    height: auto;
+    width: 97%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 10px;
+}
+
+.galeriaestadisticas img{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    right: 600px;
+}
+
+#footer{
+    text-align: right;
+}
+
+.video{
+    display: block;
+    text-align: center;
+}
+
+@keyframes animacion { /* linea de tiempo */
+    0%{
+        opacity: 100%;
+    }
+    25%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+
+.imagenLogo{
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

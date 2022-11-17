@@ -1,0 +1,23 @@
+.redesIndex{
+    right: 0px;
+    bottom: 50%;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, white, aqua);
+    font-size: 25px;
+}
+
+.redesIndex img{
+    width: 30px;
+    display: block;
+    margin: 5px;
+    float: left;
+}
+
+.footerIndex{
+    padding: 100px 0px 0px 0px;
+    color: black;
+}

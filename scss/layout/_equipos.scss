@@ -1,0 +1,17 @@
+.galeriaEquipos {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.galeriaEquipos img{
+    margin: 25px;
+    border-radius: 15px;
+    width: 75vw;
+    max-width: 500px;
+    min-width: 320px;
+}

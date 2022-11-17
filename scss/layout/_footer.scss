@@ -1,0 +1,29 @@
+.redes{
+    right: 0px;
+    bottom: 50%;
+    align-items: flex-start;
+    list-style-type: none;
+    overflow: hidden;
+    background: linear-gradient(to bottom, white, aqua);
+    font-size: 25px;
+}
+
+.redes img{
+    width: 30px;
+    display: block;
+    margin: 5px;
+    float: left;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin: 5px;
+}
+
+.whatsapp img{
+    width: 30px;
+    height: auto;
+    margin: 5px 5px;
+}

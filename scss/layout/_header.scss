@@ -1,0 +1,72 @@
+header {
+    background-color: white;
+    text-align: center;
+}
+
+.menuPrincipal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, aqua, white);
+    font-size: 25px;
+}
+
+.menuPrincipal li { 
+    display: inline-block;
+    padding: 5px;
+    margin: 30px 30px 30px 30px;
+}
+
+.menuPrincipal li a{
+    color: black;
+}
+
+.menuPrincipal li a:hover{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin: 25px;
+}
+
+main p{
+    color: black;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.listas{
+    list-style-type: none;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    line-height: 1.6;
+}
+
+main img{
+    margin: 25px;
+    border-radius: 15px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+.messi{
+text-align: center;
+}
+
+.imagenLogo {
+    width: 75vw;
+    max-width: 600px;
+    min-width: 320px;
+}
